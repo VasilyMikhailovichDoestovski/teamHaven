@@ -1,0 +1,137 @@
+body{
+	background-color: #f4eded;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.container{
+	display: grid;	
+	grid-template-columns: 1fr 1fr;
+	border: 2px solid #f4eded;
+	border-radius: 1%;
+	padding: 1%;
+	background-color: white;
+	align-content: center;
+
+}
+header,h1{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+	
+	margin-bottom:30px;
+}
+h2,header{
+	text-transform: capitalize;
+	color: #35A8E9;
+}
+.inputs{
+	width:100%;
+	height:30px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+label{
+	text-transform: capitalize;
+	color: #35A8E9;
+	padding-bottom: 40%;
+}
+#checkboxLabel,a{
+	color:black;
+	text-transform: capitalize;
+}
+.checkbox-and-forgotpassword{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	margin-bottom: 20px;
+}
+button {
+	background-color: #35A8E9;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 30%;
+  }
+  
+  button:hover {
+	opacity: 0.8;
+  }
+}
+.container-for-submitbutton-and-loginbutton{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	margin-bottom: 20px;
+}
+.container-for-loginOption{
+	margin-right: 20%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.container-for-login-images{
+	
+
+}
+li{
+	display: inline;
+	list-style-type: none;
+}
+h1{
+	color: #35A8E9;
+	text-transform: capitalize;
+}
+.h4{
+	text-transform: none;
+	color:#35A8E9;
+}
+.imagepng{
+	width:600px;
+}
+.logo{
+	width:50px;
+	margin:10px;
+}
+@media screen and (max-width: 1024px){
+	.inputs{
+		width:200px;
+		height:30px;
+		border-radius: 20px;
+		font-size: 5px;
+	}
+	.logo{
+		width:30px;
+		
+	}
+	.container-for-login-images{
+		justify-content: center;
+	}
+	.container-for-loginOption{
+		margin-right: 20%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		text-align: center;
+		font-size: 10px;
+		margin-bottom: 20px;
+	}
+	.checkbox-and-forgotpassword{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		font-size: 10px;
+		margin-bottom: 20px;
+	}
+	.forgotpassword{
+		margin-top:5px; 
+	}
+	.imagepng{
+		width:300px;
+		margin-top: 40px;
+	}
+
+}
